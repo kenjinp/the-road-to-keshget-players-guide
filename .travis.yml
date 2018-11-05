@@ -4,7 +4,6 @@ build:
   directories:
     - node_modules
 script:
-  - npm test
   - npm run build
 deploy:
   provider: s3

@@ -8,7 +8,7 @@
     "build": "gitbook build book dist",
     "build:pdf": "gitbook pdf book ./book.pdf",
     "dev": "gitbook serve book dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "author": "Jonathan Lurie",
   "license": "MIT",
