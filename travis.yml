@@ -1,0 +1,22 @@
+language: node_js
+build:
+  cache:
+  directories:
+    - node_modules
+script:
+  - npm test
+  - npm run build
+  - $echo $SECRET_PASSWORD
+# deploy:
+#   provider: s3
+#   access_key_id:
+#     - secure: "YOUR AWS ACCESS KEY"
+#   secret_access_key:
+#     - secure: "YOUR AWS SECRET KEY"
+#   bucket:
+#     - secure: "S3 Bucket"
+#   skip_cleanup: true
+#   acl: public_read
+#   local_dir: dist
+on:
+  branch: master
