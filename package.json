@@ -4,6 +4,7 @@
   "description": "Cookbook for PixpipeJS in a form of a GitBook",
   "main": "index.js",
   "scripts": {
+    "install": "(cd book && gitbook install)",
     "build": "gitbook build book dist",
     "build:pdf": "gitbook pdf book ./book.pdf",
     "dev": "gitbook serve book dist",

@@ -1,5 +1,3 @@
-[DEMO](https://jonathanlurie.github.io/book)
+# The Road to Keshget Player's Guide
 
-A project built around [GitBook](https://github.com/GitbookIO/gitbook) with everything preconfigured to start write your book.
-
-Fork this repo and read the instructions [here](https://jonathanlurie.github.io/book).
+Created using sane presents from [@jonathanlurie's gitbuook](https://jonathanlurie.github.io/book).
