@@ -13,5 +13,6 @@ deploy:
   skip_cleanup: true
   acl: public_read
   local_dir: dist
+  upload-dir: book
 on:
   branch: master
